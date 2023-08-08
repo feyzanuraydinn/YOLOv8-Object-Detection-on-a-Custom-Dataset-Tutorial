@@ -1,12 +1,12 @@
 # YOLOv8 Object Detection on a Custom Dataset Tutorial
 
-##What is YOLOv8
+## What is YOLOv8
 
 YOLOv8 is the latest iteration in the YOLO series of real-time object detectors, offering cutting-edge performance in terms of accuracy and speed. Building upon the advancements of previous YOLO versions, YOLOv8 introduces new features and optimizations that make it an ideal choice for various object detection tasks in a wide range of applications.
 
 ![yolov8](https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/yolo-comparison-plots.png)
 
-##Key Features
+## Key Features
 
 - **Advanced Backbone and Neck Architectures:** YOLOv8 employs state-of-the-art backbone and neck architectures, resulting in improved feature extraction and object detection performance.
 - **Anchor-free Split Ultralytics Head:** YOLOv8 adopts an anchor-free split Ultralytics head, which contributes to better accuracy and a more efficient detection process compared to anchor-based approaches.
@@ -15,9 +15,9 @@ YOLOv8 is the latest iteration in the YOLO series of real-time object detectors,
 
 - **Variety of Pre-trained Models:** YOLOv8 offers a range of pre-trained models to cater to various tasks and performance requirements, making it easier to find the right model for your specific use case.
 
----
 
-##How to Use YOLOv8
+
+## How to Use YOLOv8
 
 See the [YOLOv8 Docs](https://docs.ultralytics.com/models/yolov8/) for full documentation on training, validation, prediction and deployment.
 
@@ -71,7 +71,7 @@ Please check YOLOv8 [Python Docs](https://docs.ultralytics.com/usage/python/) fo
 
 ---
 
-##YOLOv8 Custom Dataset Tutorial
+## YOLOv8 Custom Dataset Tutorial
 
 <details open>
 <summary>Create a Custom Dataset</summary>
