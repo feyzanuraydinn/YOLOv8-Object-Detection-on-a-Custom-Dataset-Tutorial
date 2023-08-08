@@ -1,0 +1,10 @@
+# config.yaml
+path: c:\Users\Aydin\Desktop\yolov8\datasets     # dataset root directory
+train: custom/images   # train images (relative to 'path' directory)
+val: custom/images     # val images (relative to 'path' directory)
+
+# Classes 
+names:   # this are the classes names that you have
+0: airplane
+1: animal
+2: backpack
