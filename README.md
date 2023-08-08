@@ -92,7 +92,7 @@ Creating a dataset for training an object detection model like YOLO requires car
 3.  **Data Annotation:**
     Annotate the collected images or videos with bounding boxes and corresponding class labels. There are various annotation tools available, such as [LabelImg](https://pypi.org/project/labelImg/), [RectLabel](https://rectlabel.com), [VGG Image Annotator (VIA)](https://www.robots.ox.ac.uk/~vgg/software/via/), [CVAT](https://www.cvat.ai) etc.
 
-4.  **Dataset Structure**
+4.  **Dataset Structure:**
     Before you train YOLOv8 with your dataset you need to be sure if your dataset file format is proper.
     The proper format is to have two directories: images and labels. In the images directory there are our annotated images (.jpg) that we download before and in the labels directory there are annotation label files (.txt) which has the same names with related images. Just like this:
 
