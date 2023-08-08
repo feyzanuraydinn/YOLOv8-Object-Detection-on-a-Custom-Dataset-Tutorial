@@ -1,12 +1,12 @@
 # YOLOv8 Object Detection on a Custom Dataset Tutorial
 
-#What is YOLOv8
+##What is YOLOv8
 
 YOLOv8 is the latest iteration in the YOLO series of real-time object detectors, offering cutting-edge performance in terms of accuracy and speed. Building upon the advancements of previous YOLO versions, YOLOv8 introduces new features and optimizations that make it an ideal choice for various object detection tasks in a wide range of applications.
 
 ![yolov8](https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/yolo-comparison-plots.png)
 
-#Key Features
+##Key Features
 
 - **Advanced Backbone and Neck Architectures:** YOLOv8 employs state-of-the-art backbone and neck architectures, resulting in improved feature extraction and object detection performance.
 - **Anchor-free Split Ultralytics Head:** YOLOv8 adopts an anchor-free split Ultralytics head, which contributes to better accuracy and a more efficient detection process compared to anchor-based approaches.
@@ -17,7 +17,7 @@ YOLOv8 is the latest iteration in the YOLO series of real-time object detectors,
 
 ---
 
-#How to Use YOLOv8
+##How to Use YOLOv8
 
 See the [YOLOv8 Docs](https://docs.ultralytics.com/models/yolov8/) for full documentation on training, validation, prediction and deployment.
 
@@ -71,7 +71,7 @@ Please check YOLOv8 [Python Docs](https://docs.ultralytics.com/usage/python/) fo
 
 ---
 
-#YOLOv8 Custom Dataset Tutorial
+##YOLOv8 Custom Dataset Tutorial
 
 <details open>
 <summary>Create a Custom Dataset</summary>
@@ -92,7 +92,7 @@ Creating a dataset for training an object detection model like YOLO requires car
 3.  **Data Annotation:**
     Annotate the collected images or videos with bounding boxes and corresponding class labels. There are various annotation tools available, such as [LabelImg](https://pypi.org/project/labelImg/), [RectLabel](https://rectlabel.com), [VGG Image Annotator (VIA)](https://www.robots.ox.ac.uk/~vgg/software/via/), [CVAT](https://www.cvat.ai) etc.
 
-4.  **Dataset Structure:**
+4.  **Dataset Structure**
     Before you train YOLOv8 with your dataset you need to be sure if your dataset file format is proper.
     The proper format is to have two directories: images and labels. In the images directory there are our annotated images (.jpg) that we download before and in the labels directory there are annotation label files (.txt) which has the same names with related images. Just like this:
 
@@ -150,7 +150,7 @@ After train the YOLOv8, we are finally ready to test it.
 <summary>Test YOLOv8</summary>
 <br>
 
-You can test it with many ways. There is a code part for predict on an image, you can check ultralytics's website for more information about YOLOv8 [predict mode](https://docs.ultralytics.com/modes/predict/).
+You can test it with an image or a video etc. There is a code part for image, you can check ultralytics's website for more information about YOLOv8 [predict mode](https://docs.ultralytics.com/modes/predict/).
 ```
 # test_custom-dataset.py
 from ultralytics import YOLO
